@@ -30,7 +30,9 @@ Run the project through the IDE and head out to http://localhost:1999
 # GET All Orders :
 
 Mapping : GET Mapping.
+
 Parameters : Not Required.
+
 Return : List of all orders.
 
 Url : http://localhost:1999/orderAPI
@@ -41,7 +43,9 @@ Url : http://localhost:1999/orderAPI
 # GET Order by Id :
 
 Mapping : GET Mapping.
+
 Parameters : id
+
 Return : order of given Id.
 
 Url : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
@@ -51,7 +55,9 @@ Url : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
 # DELETE Order by Id :
 
 Mapping : DELETE Mapping.
+
 Parameters : id
+
 Return : response message.
 
 Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
@@ -61,7 +67,9 @@ Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
 # POST Order (Add new Order):
 
 Mapping : POST Mapping.
+
 Parameters : Need to pass the Order Model as a Response body.
+
 Return : added order details with response message.
 
 Url : http://localhost:1999/orderAPI/addOrder
