@@ -12,7 +12,7 @@ The project is created with Maven, so you just need to import it to your IDE and
 
 Create a MongoDB database with the name AuroniaInterview and add the credentials to /resources/application.properties.
 The default ones are :
-
+```
 spring.data.mongodb.host=localhost
 
 spring.data.mongodb.port=27017
@@ -22,6 +22,7 @@ spring.data.mongodb.database=AuroniaInterview
 spring.main.allow-bean-definition-overriding=true
 
 server.port=1999
+```
 
 ## Usage
 
