@@ -27,7 +27,7 @@ server.port=1999
 
 Run the project through the IDE and head out to http://localhost:1999
 
-# Get All Orders
+# Get All Orders :
 
 Mapping : GET Mapping.
 Parameters : Not Required.
@@ -36,6 +36,17 @@ Return : List of all orders.
 Url : http://localhost:1999/orderAPI
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getAllOrders.PNG)
+
+
+# Get Order by Id :
+
+Mapping : GET Mapping.
+Parameters : id
+Return : order of given Id.
+
+Url : http://localhost:1999/orderAPI
+
+![alt text](https://github.com/umang4846/auronia-interview/blob/master/getOrderById.PNG)
 
 
 
