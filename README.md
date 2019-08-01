@@ -32,39 +32,39 @@ Run the project through the IDE and head out to http://localhost:1999
 
 ### GET All Orders :
 
-Mapping : GET Mapping.
+*Mapping* : GET Mapping.
 
-Parameters : Not Required.
+*Parameters* : Not Required.
 
-Return : List of all orders.
+*Return* : List of all orders.
 
-Url : http://localhost:1999/orderAPI
+*Url* : http://localhost:1999/orderAPI
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getAllOrders.PNG)
 
 
 ### GET Order by Id :
 
-Mapping : GET Mapping.
+*Mapping* : GET Mapping.
 
-Parameters : id
+*Parameters* : id
 
-Return : order of given Id.
+*Return* : order of given Id.
 
-Url : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
+*Url* : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getOrderById.PNG)
 
 
 ### POST Order (Add new Order):
 
-Mapping : POST Mapping.
+*Mapping* : POST Mapping.
 
-Parameters : Need to pass the Order Model as a Response body.
+*Parameters* : Need to pass the Order Model as a Response body.
 
-Return : added order details with response message.
+*Return* : added order details with response message.
 
-Url : http://localhost:1999/orderAPI/addOrder
+*Url* : http://localhost:1999/orderAPI/addOrder
 
 **json file for POST body request**
 ```json
@@ -113,13 +113,13 @@ Url : http://localhost:1999/orderAPI/addOrder
 
 ### PUT Mapping (Update Order):
 
-Mapping : PUT Mapping.
+*Mapping* : PUT Mapping.
 
-Parameters : Need to pass the Updated Order Model as a Response body( id & OrderGuid Required.)
+*Parameters* : Need to pass the Updated Order Model as a Response body( id & OrderGuid Required.)
 
-Return : added order details with response message.
+*Return* : added order details with response message.
 
-Url : http://localhost:1999/orderAPI/updateOrder
+*Url* : http://localhost:1999/orderAPI/updateOrder
 
 **json file for PUT body request**
 ```json
@@ -162,12 +162,12 @@ Url : http://localhost:1999/orderAPI/updateOrder
 
 ### DELETE Order by Id :
 
-Mapping : DELETE Mapping.
+*Mapping* : DELETE Mapping.
 
-Parameters : id
+*Parameters* : id
 
-Return : response message.
+*Return* : response message.
 
-Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
+*Url* : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/deleteById.PNG)
