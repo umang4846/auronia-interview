@@ -27,7 +27,7 @@ server.port=1999
 
 Run the project through the IDE and head out to http://localhost:1999
 
-# Get All Orders :
+# GET All Orders :
 
 Mapping : GET Mapping.
 Parameters : Not Required.
@@ -38,15 +38,25 @@ Url : http://localhost:1999/orderAPI
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getAllOrders.PNG)
 
 
-# Get Order by Id :
+# GET Order by Id :
 
 Mapping : GET Mapping.
 Parameters : id
 Return : order of given Id.
 
-Url : http://localhost:1999/orderAPI
+Url : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getOrderById.PNG)
+
+# DELETE Order by Id :
+
+Mapping : DELETE Mapping.
+Parameters : id
+Return : response message.
+
+Url : localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
+
+![alt text](https://github.com/umang4846/auronia-interview/blob/master/deleteById.PNG)
 
 
 
