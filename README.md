@@ -4,11 +4,11 @@ Practical of Auronia Comapany for Interview Process.
 
 # STEPS
 
-# Installation
+## Installation
 
 The project is created with Maven, so you just need to import it to your IDE and build the project to resolve the dependencies
 
-# Database configuration
+## Database configuration
 
 Create a MongoDB database with the name AuroniaInterview and add the credentials to /resources/application.properties.
 The default ones are :
@@ -23,11 +23,11 @@ spring.main.allow-bean-definition-overriding=true
 
 server.port=1999
 
-# Usage
+## Usage
 
 Run the project through the IDE and head out to http://localhost:1999
 
-# GET All Orders :
+## GET All Orders :
 
 Mapping : GET Mapping.
 
@@ -40,7 +40,7 @@ Url : http://localhost:1999/orderAPI
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getAllOrders.PNG)
 
 
-# GET Order by Id :
+## GET Order by Id :
 
 Mapping : GET Mapping.
 
@@ -52,7 +52,7 @@ Url : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getOrderById.PNG)
 
-# DELETE Order by Id :
+## DELETE Order by Id :
 
 Mapping : DELETE Mapping.
 
@@ -64,7 +64,7 @@ Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/deleteById.PNG)
 
-# POST Order (Add new Order):
+## POST Order (Add new Order):
 
 Mapping : POST Mapping.
 
