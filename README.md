@@ -54,9 +54,60 @@ Mapping : DELETE Mapping.
 Parameters : id
 Return : response message.
 
-Url : localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
+Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/deleteById.PNG)
 
+# POST Order (Add new Order):
 
+Mapping : POST Mapping.
+Parameters : Need to pass the Order Model as a Response body.
+Return : added order details with response message.
+
+Url : http://localhost:1999/orderAPI/addOrder
+
+**json file for POST body request**
+```json
+{  
+    "customerEmail": "umang4846@gmail.com",
+    "firstName": "Umang",
+    "lastName": "Patel",
+    "shippingAddress": {
+        "firstName": "Umang",
+        "lastName": "Patel",
+        "email": "umang4846@gmail.com",
+        "city": "Ahmedabad",
+        "address1": "Cross road , highway",
+        "address2": "Sardarpatel Stadium",
+        "zipPostalCode": "384021",
+        "phoneNumber": "XXX25XX22"
+    },
+       "orderItems" : [ 
+        {
+            "quantity" : 3,
+            "product":{
+            	"name":"Mobile",
+            	"price":"31000"
+            }
+        },
+        {
+            "quantity" : 2,
+            "product":{
+            	"name":"Earphone",
+            	"price":"1500"
+            }
+        }
+        ,
+         {
+            "quantity" : 1,
+            "product":{
+            	"name":"Powerbank",
+            	"price":"2100"
+            }
+        }
+    ]
+}
+```
+
+![alt text](https://github.com/umang4846/auronia-interview/blob/master/addOrder.PNG)
 
