@@ -52,17 +52,6 @@ Url : http://localhost:1999/orderAPI/orderById/5d43202659f4ef18f42722db
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/getOrderById.PNG)
 
-## DELETE Order by Id :
-
-Mapping : DELETE Mapping.
-
-Parameters : id
-
-Return : response message.
-
-Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
-
-![alt text](https://github.com/umang4846/auronia-interview/blob/master/deleteById.PNG)
 
 ## POST Order (Add new Order):
 
@@ -119,3 +108,63 @@ Url : http://localhost:1999/orderAPI/addOrder
 
 ![alt text](https://github.com/umang4846/auronia-interview/blob/master/addOrder.PNG)
 
+## PUT Mapping (Update Order):
+
+Mapping : PUT Mapping.
+
+Parameters : Need to pass the Updated Order Model as a Response body( id & OrderGuid Required.)
+
+Return : added order details with response message.
+
+Url : http://localhost:1999/orderAPI/updateOrder
+
+**json file for PUT body request**
+```json
+{   "_id":"5d43450a4075e51a4c4f6d08",
+"orderGuid":"124b71f4-83ae-2743-8bd0-19b0820055b7",
+    "customerEmail": "umang4846@gmail.com",
+    "firstName": "Umang",
+    "lastName": "Patel",
+    "shippingAddress": {
+        "firstName": "Umang",
+        "lastName": "Patel",
+        "email": "umang4846@gmail.com",
+        "city": "Mahesana",
+        "address1": "new addredd",
+        "address2": "Banglore,Khau gali",
+        "zipPostalCode": "384022",
+        "phoneNumber": "98xx22xx22xx"
+    },
+       "orderItems" : [ 
+        {
+            "quantity" : 1,
+            "product":{
+            	"name":"Sun Glasses",
+            	"price":"3200"
+            }
+        },
+         {
+            "quantity" :2,
+            "product":{
+            	"name":"Mouse",
+            	"price":"700"
+            }
+        }
+        
+    ]
+}
+```
+
+![alt text](https://github.com/umang4846/auronia-interview/blob/master/updateOrder.PNG)
+
+## DELETE Order by Id :
+
+Mapping : DELETE Mapping.
+
+Parameters : id
+
+Return : response message.
+
+Url : http://localhost:1999/orderAPI/deleteOrder/5d433b724075e512c0b75273
+
+![alt text](https://github.com/umang4846/auronia-interview/blob/master/deleteById.PNG)
