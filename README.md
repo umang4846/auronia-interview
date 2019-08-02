@@ -123,8 +123,9 @@ Run the project through the IDE and head out to http://localhost:1999
 
 **json file for PUT body request**
 ```json
-{   "_id":"5d43450a4075e51a4c4f6d08",
-"orderGuid":"124b71f4-83ae-2743-8bd0-19b0820055b7",
+{   
+    "_id":"5d43450a4075e51a4c4f6d08",
+    "orderGuid":"124b71f4-83ae-2743-8bd0-19b0820055b7",
     "customerEmail": "umang4846@gmail.com",
     "firstName": "Umang",
     "lastName": "Patel",
